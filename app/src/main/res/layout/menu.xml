@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".actprincipal">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:text="INSTITUTO SUPERIOR TECNOLÓGICO LOJA "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F6EEEE"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@mipmap/inst"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/botayuda"
+                android:layout_width="138dp"
+                android:layout_height="120dp"
+                android:backgroundTint="#22CBFF"
+                android:src="@drawable/ic_baseline_help_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="AYUDA"
+                android:textColor="#1E1C1C"
+                android:textSize="15dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/botcam"
+                android:layout_width="138dp"
+                android:layout_height="120dp"
+                android:backgroundTint="#325FB8"
+                android:src="@drawable/ic_baseline_camera_alt_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CÁMARA"
+                android:textColor="#121111"
+                android:textSize="15dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bt_docentes"
+                android:layout_width="138dp"
+                android:layout_height="120dp"
+                android:backgroundTint="#252C53"
+                android:src="@drawable/ic_baseline_people_24"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DOCENTES"
+                android:textColor="#171717"
+                android:textSize="15dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/infocarrera"
+                android:layout_width="138dp"
+                android:layout_height="120dp"
+                android:backgroundTint="#88EDAA"
+                android:src="@drawable/ic_baseline_book_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center"
+                android:text="INFORMACIÓN CARRERA"
+                android:textColor="#1E1C1C"
+                android:textSize="15dp">
+
+            </TextView>
+            />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textMultiLine"
+            android:text="Esta aplicación fue creada para escanear fotos en realidad aumentada con el fin de que la aplicación las reconozca y nos muestre el nombre que les corresponda. "
+            android:textColor="#090909"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>
